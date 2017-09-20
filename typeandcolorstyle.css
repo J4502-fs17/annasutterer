@@ -2,9 +2,12 @@ html{
   font-size: 100%;
 }
 
-body {
-    align-content:center;
+h1{
+  text-align: center;
+  font-family: "Cantana One", Georgia, "Times New Roman", serif;
+  text-decoration-color: #808080;
 }
+
 p {
   color: #666666;
     font-family: "Merriweather", Georgia, "Times New Roman", serif;
@@ -16,8 +19,10 @@ p {
   font-style: italic;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Merriweather Sans", Helvetica, Arial, sans-serif;
+#container {
+  width: 95%;
+  background-color: #CADEFF;
+  margin: 0 auto;
 }
 
 #nav li{
