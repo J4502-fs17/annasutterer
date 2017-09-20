@@ -1,46 +1,87 @@
-html{
-  font-size: 100%;
-}
-
-body{
-  text-align:center;
-}
-
-h1 {
-  text-align: center;
-  font-family: "Cantana One", Georgia, "Times New Roman", serif;
-  text-decoration-color: #808080;
-}
-
-h4{
-
-}
-
-img{
-  border:none;
+html {
+	font-size: 100%
 }
 
 p {
-  color: #666666;
-    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
     font-size:1rem;
     line-height: 1.5rem;
 }
 
-#container {
-  width: 95%;
-  background-color: #CADEFF;
-  margin: 0 auto;
-  text-align: center;
+body {
+text-align:center;
+background-color: #CADEFF;
+}
+
+h1{
+text-align: center;
+font-family: "Cantata One", Georgia, "Times New Roman", serif;
+color: #808080;
+font-size: 5em;
+margin-bottom:2px;
+}
+
+.email{
+  font-family: "Cantata One", Georgia, "Times New Roman", serif;
+  margin-top:0;
 }
 
 #nav {
   padding:0;
-  list-style-type: none;
+  list-style-type:none;
 }
 
 #nav li{
-  margin: 0;
-  padding: 0;
-  border: 0,1px,0,1px solid #808080;
+  margin:0;
+  padding:0;
+  border-bottom: 1px solid #808080;
   text-decoration: none;
+}
+#nav a:link, a:visited {
+	display: block;
+    color: #808080;
+    background-color: #E5D78B;
+    font-weight: normal;
+    text-align:center;
+    text-decoration: none;
+    padding: 4px;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+#nav a:hover, a:active {
+    background-color: #DBCD61;
+}
+
+img{
+height:25%;
+width: 50%;
+border-style:none;
+}
+
+/*ADD COLOR ELEMENT TO SET OFF THE JOKE PART*/
+.caption{
+  color:black;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-style:normal;
+  font-weight: 600;
+  margin-top: 1px;
+  margin-bottom: 6px;
+  font-size: 2em
+}
+
+.question{
+  color:black;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  margin-top:2px;
+  margin-bottom: 1px;
+  font-size: 1em
+}
+
+.answer{
+  color:black;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-style: italic;
+  margin-top:2px;
+  font-size: 1em
+}
