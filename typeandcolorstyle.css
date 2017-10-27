@@ -28,7 +28,9 @@ margin-bottom:2px;
 
 @media (max-width: 600px) {
 	.logo {
-		position:relative;
+		position: absolute;
+    left: 55px;
+    top: 148px;
 
 	}
 }
@@ -70,10 +72,6 @@ margin-bottom:2px;
 	flex-flow:column wrap;
 	justify-content: space-between;
 
-}
-
-.item1{
-	flex-shrink: <.5>;
 }
 
 @media (min-width: 600px) {
