@@ -21,6 +21,18 @@ font-size: 275%;
 margin-bottom:2px;
 }
 
+.logo{
+	max-width: 5%;
+	border-style:none;
+}
+
+@media (max-width: 600px) {
+	.logo {
+		position:relative;
+
+	}
+}
+
 .email{
   font-family: "Cantata One", Georgia, "Times New Roman", serif;
   margin-top:0;
