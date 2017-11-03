@@ -23,13 +23,13 @@ margin-left:20%;
 
 .logo{
 	width:15%;
-	position:fixed;left; /*how to keep in the top left corner?*/
+	position:fixed;
 	margin-top:20px;
 	margin-left:0;
 	border-style:none;
 }
 
-#header{
+#title{
 	display:flex;
 	flex-flow: row;
 }
@@ -141,18 +141,17 @@ margin-left:20%;
 
 
 @media screen and (min-width:600px){
-	#aboutarticle{
+	#aboutme{
 		display:grid;
-		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-columns: 1fr 1fr;
 		grid-template-areas:
-	        "a b b b";
-	    grid-gap: 5px;
+	        "b a";
+	    grid-gap: 20px;
 	}
 	#aboutme img{
-		width:50%;
-    max-width:350px;
-    float:left;
-
+		width:100%;
+		max-width:500px;
+margin:10px;
 	}
 	.abouthead{
 		margin-top:0;
@@ -216,7 +215,6 @@ margin-left:20%;
 
 .email{
   font-family: "Cantata One", Georgia, "Times New Roman", serif;
-	align-content: left;
 	border-top: 1px solid #808080;
 	margin-top:10px;
 	font-size:.75em;
