@@ -49,6 +49,7 @@ margin-left:20%;
 	}
 	h1{
 		font-size: 300%;
+		margin-left:33%;
 	}
 }
 
@@ -112,7 +113,6 @@ margin-left:20%;
 
 .content{
 	color:black;
-	border-bottom:1px solid #ccc;
 	align-content: center;
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-style:normal;
@@ -179,13 +179,14 @@ margin-left:20%;
 
 .jokehead{
 	color:black;
+	border-top:1px solid #ccc;
   font-family: "Cantata One", Georgia, "Times New Roman", serif;
   font-style:normal;
   font-weight: 600;
   margin-top: 10px;
   margin-bottom: 6px;
-	margin-left: 30%;
-  font-size: 1.5em;
+	padding-top:10px;
+  font-size: 1.3em;
 }
 
 .question{
@@ -231,4 +232,5 @@ margin-left:20%;
 	align-content: left;
 	border-top: 1px solid #808080;
 	margin-top:10px;
+	font-size:.75em;
 }
