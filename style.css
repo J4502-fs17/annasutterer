@@ -19,14 +19,11 @@ font-size: 150%;
 margin-top:20px;
 margin-bottom:2px;
 margin-left:20%;
+order:2;
 }
 
 .logo{
-	width:15%;
-	position:fixed;
-	margin-top:20px;
-	margin-left:0;
-	border-style:none;
+	display:none;
 }
 
 #title{
@@ -35,22 +32,34 @@ margin-left:20%;
 }
 
 @media screen and (min-width:450px){
-	.logo{
-		display:none;
-	}
+
 	h1{
 		font-size: 200%;
 		margin-left: 25%;
 	}
+	.logo{
+		display:block;
+		width:15%;
+		position:fixed;
+		margin-top:20px;
+		margin-left:0;
+		border-style:none;
+	}
 }
 
 @media screen and (min-width:600px){
-	.logo{
-		display:none;
-	}
 	h1{
 		font-size: 300%;
 		margin-left:30%;
+	}
+	.logo{
+		display:block;
+		width:15%;
+		max-width:100px;
+		position:fixed;
+		margin-top:20px;
+		margin-left:0;
+		border-style:none;
 	}
 }
 
@@ -60,7 +69,8 @@ margin-left:20%;
 }
 
 #nav li{
-  margin:0;
+	display:none;
+	margin:0;
   padding:0;
   border-bottom: 1px solid #808080;
   text-decoration: none;
@@ -137,6 +147,17 @@ margin-left:20%;
 .about{
 	grid-area:b;
 }
+#nav li{
+	display:flex;
+	margin:0;
+	padding:0;
+	border-bottom: 1px solid #808080;
+	text-decoration: none;
+	font-size:70%;
+}
+.menu-trigger{
+	display:none;
+}
 }
 
 
@@ -161,6 +182,8 @@ margin:10px;
 		margin-left:0;
 		font-size: 1em;
 	}
+	#nav li{
+		font-size:100%;
 }
 
 .jokehead{
