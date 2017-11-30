@@ -185,6 +185,29 @@ margin:10px;
 	#nav li{
 		font-size:100%;
 }
+}
+
+.dance{
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	font-size-adjust: auto;
+	background-color: white;
+}
+
+.mapwrapper {
+    overflow:hidden;
+    padding-bottom:60%;
+    position:relative;
+    height:0;
+}
+
+.mapwrapper iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+	}
 
 .jokehead{
 	color:black;
@@ -228,6 +251,12 @@ margin:10px;
 }
 
 @media screen and (min-width:600px){
+	.dance{
+		font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		font-size: 1.5em;
+		font-size-adjust: auto;
+		background-color: white;
+	}
 	.jokehead{
 		margin-left:0;
 		font-size:2em;
